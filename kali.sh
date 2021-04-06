@@ -24,7 +24,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://github.com/CyberSecurityBD/Kali-Linux-in-Termux/blob/main/kali-rootfs-armhf.tar.xz" -O $tarball
+		wget "https://raw.githubusercontent.com/CyberSecurityBD/Kali-Linux-in-Termux/main/kali-rootfs-armhf.tar.xz" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
